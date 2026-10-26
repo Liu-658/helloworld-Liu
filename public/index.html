@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的第一个AI开发的网站</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Microsoft YaHei", "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #1e90ff 0%, #00c6ff 50%, #43e97b 100%);
+      color: #ffffff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .card {
+      max-width: 720px;
+      padding: 50px 40px;
+      background: rgba(255, 255, 255, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 16px;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      font-size: 28px;
+      line-height: 1.5;
+      margin-bottom: 24px;
+    }
+
+    .time-box {
+      display: inline-block;
+      padding: 10px 24px;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 30px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Hello World！我是【你的名字】，我的第一个AI开发的网站</h1>
+    <p class="time-box">
+      当前服务器时间：{{serverTime}}（{{serverTimeZone}}）
+    </p>
+  </div>
+</body>
+</html>

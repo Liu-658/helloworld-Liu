@@ -1,0 +1,10 @@
+# 依赖目录
+node_modules/
+
+# 环境变量与密钥（切勿提交）
+.env
+.env.*
+
+# 日志与临时文件
+*.log
+.DS_Store
